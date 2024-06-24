@@ -10,12 +10,12 @@ if place == "forest":
         print("You found a bird's nest!")
     elif action == "cross a river":
         print("You found a boat!")
-# else:
-#     print("You found a hidden treasure!")
+
 
 # Task 2: Setting the Scene
 
 elif place == "cave":
+    print("You found a hidden treasure!")
     cave_action = input("Do you want to: (light a torch or proceed in the dark)? ")
     if cave_action == "light a torch":
         print("You see a slime pit in front of you, and a cave exit to your right. Proceed right and exit this cave with your treasure in tact! 💰💰💰")
